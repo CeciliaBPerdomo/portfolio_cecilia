@@ -1,10 +1,14 @@
 import React from 'react'
 
+import {
+  HeroContainerStyled,
+} from "./HeroStyled"
+
 const Hero = () => {
   return (
-    <div>
+    <HeroContainerStyled>
       <h1>Cecilia Perdomo</h1>
-      </div>
+      </HeroContainerStyled>
   )
 }
 
