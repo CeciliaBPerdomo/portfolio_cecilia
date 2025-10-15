@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { setTheme } from './themeSlice';
+import { setTheme } from './ThemeSlice';
 import { themeColors } from '../../../styles/theme';
 
 const ThemeProvider = ({ children }) => {
