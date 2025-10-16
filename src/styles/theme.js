@@ -1,6 +1,6 @@
 export const themeColors = {
   light: {
-    '--color-background': '#F8F6FF',        // Fondo suave con tinte lila
+    '--color-background': '#f8f6ffff',        // Fondo suave con tinte lila
     '--color-surface': '#FFFFFF',           // Cajas, cards, secciones
     '--color-primary': '#7C3AED',           // Lila intenso (botones principales)
     '--color-primary-hover': '#6D28D9',     // Hover del botón principal

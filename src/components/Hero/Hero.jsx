@@ -1,49 +1,51 @@
 import React from "react";
 
-import heroImage from "../../assets/react.svg"; // tu imagen aquí
+import heroImage from "../../assets/ImagenHero.png"; // tu imagen aquí
 
 import {
   HeroContainerStyled,
+  TextoContainer,
+  ImagenContainer,
+  BotonesContenedor
 } from "./HeroStyled"
+
+// Iconos
+import { FaReact, FaNodeJs  } from "react-icons/fa6";
+import { SiVite, SiAngular, SiPython, SiDjango } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
+import { DiMongodb, DiScrum  } from "react-icons/di";
+import { IoLogoJavascript } from "react-icons/io";
+import { GrHtml5 } from "react-icons/gr";
+import { TbBrandCss3 } from "react-icons/tb";
+
 
 const Hero = () => {
   return (
-    <HeroContainerStyled className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-20 bg-[var(--color-background)] text-[var(--color-text)]">
-      
-      {/* Texto */}
-      <div className="md:w-1/2 flex flex-col justify-center items-start text-center md:text-left mb-12 md:mb-0">
-        <h1 className="text-4xl md:text-6xl font-bold mb-6 text-[var(--color-heading)]">
-          Soy Cecilia, <span className="text-[var(--color-primary)]">programadora full stack</span>.
-        </h1>
-        <p className="text-lg md:text-xl text-[var(--color-text)] mb-8">
-          Creo sitios web personalizados que cuentan tu historia, conectan con tu público y hacen que tu negocio destaque.
-        </p>
+    <HeroContainerStyled>
 
-        {/* Botones */}
-        <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto justify-center md:justify-start">
-          <a
-            href="#proyectos"
-            className="bg-[var(--color-primary)] hover:bg-[var(--color-primary-hover)] text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 text-center"
-          >
-            Ver mis proyectos
-          </a>
-          <a
-            href="#contacto"
-            className="border border-[var(--color-accent)] hover:bg-[var(--color-accent)] hover:text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 text-center"
-          >
-            Hablemos de tu web
-          </a>
-        </div>
-      </div>
+      <TextoContainer>
+        <h1>¡Hola mundo🌎​! Soy <span>Cecilia Perdomo</span></h1>
+        <h2>Desarrolladora full stack web</h2>
+        <h3>Creo sitios web personalizados que cuentan tu historia, </h3> 
+        <h3>conectan con tu público y hacen que tu negocio destaque.</h3>
 
-      {/* Imagen */}
-      <div className="md:w-1/2 flex justify-center md:justify-end">
-        <img
-          src={heroImage}
-          alt="Cecilia programadora full stack"
-          className="w-3/4 md:w-full rounded-lg shadow-lg"
-        />
-      </div>
+        <span>
+          <GrHtml5 size={40}/> <TbBrandCss3 size={40} />
+          <FaReact size={40}/> <SiVite size={40}/> 
+          <RiNextjsFill size={40}/> <SiAngular size={40} /> 
+          <IoLogoJavascript size={40} /> <SiPython size={40} /> <SiDjango size={40} />
+          <DiMongodb size={40} /><FaNodeJs size={40}/> <DiScrum size={40}/>
+        </span>
+        <BotonesContenedor>
+          <button>Ver mis proyectos</button>
+          <button>Hablemos de tu web</button>
+        </BotonesContenedor>
+      </TextoContainer>
+
+
+      <ImagenContainer>
+        <img src={heroImage} alt="Cecilia Perdomo" />
+      </ImagenContainer>
     </HeroContainerStyled>
   );
 };
