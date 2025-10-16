@@ -18,6 +18,8 @@ export const TextoContainer = styled.div`
     align-items: center;
 
     h1{
+        line-height: 5px;
+
         span {
             font-family: "Dancing Script", cursive;
             font-size: 3rem;
@@ -46,5 +48,10 @@ export const ImagenContainer = styled.div`
 `;
 
 export const BotonesContenedor = styled.div`
+    display: flex;
+    justify-content: center;
 
+    button {
+        margin: 0.5rem;
+    }
 `;
