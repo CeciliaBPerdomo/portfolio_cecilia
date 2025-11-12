@@ -14,7 +14,7 @@ export const themeColors = {
         '--color-secondary-background': '#3b332e',      // un tono arriba para secciones secundarias
         '--color-encabezados': '#f1e9e4',               // texto principal claro
         '--bloques': '#5c4c42',                         // bloques destacados en tono café suave
-        '--espacio-blanco': '#e5d9cf',                  // texto o áreas claras (no blanco puro)
+        '--espacio-blanco': '#000000',                  // texto o áreas claras (no blanco puro)
         '--botones': '#b19a84',                         // botones cálidos que contrastan sin romper
         '--color-acento': '#d99873',                    // terracota más claro (hover o enlaces)
     },

@@ -10,9 +10,9 @@ const Hero = () => {
           Hola, soy <span className="text-[var(--color-acento)]">Cecilia</span>
         </h1>
 
-        <p className="text-lg md:text-xl opacity-80">
+        <h1 className="text-lg md:text-xl text-[var(--color-acento)]">
           Desarrolladora web full stack
-        </p>
+        </h1>
 
         <h3 className="text-lg md:text-xl">
           Creo sitios web personalizados que cuentan tu historia.

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "titulo": "CupcakeLandia 🧁",
+        "descripcion": "CupcakeLandia es una tienda online de cupcakes desarrollada con tecnologías modernas del stack front-end. Permite a los usuarios registrarse, iniciar sesión, explorar un menú de delicias, armar su carrito, confirmar pedidos y consultar su historial. Todo en una experiencia ágil, visual y responsive.",
+        "tecnologias": [
+            "HTML5",
+            "CSS3",
+            "React",
+            "Vite",
+            "JavaScript",
+            "React Router",
+            "Redux",
+            "Formik",
+            "Axios"
+        ],
+        "imagen": "/proyectos/cupcakes.png",
+        "live": "https://proyecto-integrador-react-cupcakes.vercel.app/",
+        "github": "https://github.com/CeciliaBPerdomo/Proyecto-Integrador-React-Cupcakes"
+    },
+    {
+        "id": 2,
+        "titulo": "ÑamBurgers 🍔",
+        "descripcion": "Landing page responsive para una hamburguesería artesanal, desarrollada con HTML, CSS y JavaScript. Incluye menú filtrable por categorías, carrito de compras con persistencia en localStorage, formulario de contacto con validaciones y un menú hamburguesa funcional. Todo el contenido se renderiza dinámicamente desde JavaScript manipulando el DOM.",
+        "tecnologias": [
+            "HTML5",
+            "CSS3",
+            "JavaScript"
+        ],
+        "imagen": "/proyectos/hamburguesa.png",
+        "live": "https://pf-2-nam-burgers.vercel.app/",
+        "github": "https://github.com/CeciliaBPerdomo/PF2-NamBurgers"
+    },
+    {
+        "id": 3,
+        "titulo": "Brinna 👗",
+        "descripcion": "🚧 Actualmente en construcción, nuevas funcionalidades próximamente. Se trata de una plataforma web creada para Brinna, un marketplace de ropa de segunda mano. Permite a los usuarios comprar y vender prendas, consultar el estado de sus pedidos, comunicarse con los vendedores y dejar reseñas.",
+        "tecnologias": [
+            "React.js",
+            "Next.js",
+            "Tailwind CSS",
+            "Redux",
+            "Firebase",
+            "GoogleAuth"
+        ],
+        "imagen": "/proyectos/LogoBrinnaNegro.png",
+        "live": "https://brinna.vercel.app/",
+        "github": "https://github.com/CeciliaBPerdomo/Brinna"
+    }
+]
