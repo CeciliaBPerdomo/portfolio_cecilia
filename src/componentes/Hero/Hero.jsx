@@ -2,8 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="w-full min-h-screen flex flex-col md:flex-row items-center justify-center bg-[var(--color-background)] text-[var(--color-encabezados)] px-6 md:px-16 py-10">
-      
+   <section className="w-full min-h-screen flex flex-col md:flex-row items-center justify-center bg-[var(--color-background)] text-[var(--color-encabezados)] px-6 md:px-16 pt-20 pb-10">   
       {/* Columna izquierda: texto */}
       <div className="flex-1 flex flex-col items-center justify-center text-center space-y-4">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight">
