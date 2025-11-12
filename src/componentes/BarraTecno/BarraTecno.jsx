@@ -8,16 +8,10 @@ import { GrHtml5 } from "react-icons/gr";
 import { TbBrandCss3 } from "react-icons/tb";
 
 const BarraTecno = () => {
-  const iconStyle =
-    "text-[var(--color-encabezados)] hover:text-[var(--color-acento)] transition-transform hover:scale-110";
+  const iconStyle = "text-[var(--color-encabezados)] hover:text-[var(--color-acento)] transition-transform hover:scale-110";
 
   return (
-    <div
-      className="
-        w-full bg-[var(--espacio-blanco)] py-3 flex justify-center flex-wrap gap-6 shadow-md z-40
-        md:fixed md:bottom-0 md:left-0
-      "
-    >
+    <div className="w-full bg-[var(--espacio-blanco)] py-3 flex justify-center flex-wrap gap-6 shadow-md z-40  md:bottom-0 md:left-0 ">
       <GrHtml5 size={37} className={iconStyle} />
       <TbBrandCss3 size={40} className={iconStyle} />
       <FaReact size={40} className={iconStyle} />
