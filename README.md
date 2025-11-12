@@ -42,6 +42,8 @@
 | ----- | ---- | ------ | ---------- |
 | ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) | **TailwindCSS** | https://tailwindcss.com/docs/installation/using-vite | |
 | ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white) | **React Router** | https://www.npmjs.com/package/react-router-dom <br/> https://www.npmjs.com/package/react-router| `npm i react-router-dom` <br/> `npm i react-router`| 
+| | **React Redux Toolkit** | | `npm i @reduxjs/toolkit`<br/>`npm i react-redux`<br/> `npm i redux-persist` | 
+| | **React Icons** | | `npm install react-icons --save` |
 
 ## 🛠️ Desarrollo y deploy web
 - Hecho con 💙​ por <a href="https://www.linkedin.com/in/cecilia-perdomo/" style="text-decoration: none; color: black">Cecilia Perdomo</a>, desde el 12 de noviembre de 2025.

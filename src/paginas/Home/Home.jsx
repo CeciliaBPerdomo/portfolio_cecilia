@@ -1,9 +1,12 @@
 import React from 'react'
+import Hero from '../../componentes/Hero/Hero'
+import BarraTecno from '../../componentes/BarraTecno/BarraTecno'
 
 const Home = () => {
   return (
     <div>
-       <h1>Cecilia Perdomo</h1>
+       <Hero/>
+       <BarraTecno />
     </div>
   )
 }
