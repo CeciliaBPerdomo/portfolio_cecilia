@@ -11,8 +11,7 @@ const BarraTecno = () => {
   const iconStyle = "text-[var(--color-encabezados)] hover:text-[var(--color-acento)] transition-transform hover:scale-110";
 
   return (
-    <div className="w-full bg-[var(--espacio-blanco)] py-3 flex justify-center flex-wrap gap-6 shadow-md
-        relative z-40 md:-mt-8">
+    <div className=" w-full bg-[var(--espacio-blanco)] py-3 flex justify-center flex-wrap gap-6 shadow-md relative z-40 md:-mt-16">
       <GrHtml5 size={37} className={iconStyle} />
       <TbBrandCss3 size={40} className={iconStyle} />
       <FaReact size={40} className={iconStyle} />
