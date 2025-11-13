@@ -118,7 +118,7 @@ const Contacto = () => {
           <img
             src="/contacto.png"
             alt="Contacto"
-            className="max-w-full h-auto rounded-lg shadow-md"
+            className="max-w-full h-auto"
           />
         </motion.div>
       </div>

@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[var(--espacio-blanco)] text-[var(--color-encabezados)] border-t border-[var(--color-acento)] py-10 shadow-inner">
+    <footer className="bg-[var(--espacio-blanco)] text-[var(--color-encabezados)]  py-10 shadow-inner">
       <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-start text-center md:text-left">
 
         {/* Columna 1 – Identidad */}
