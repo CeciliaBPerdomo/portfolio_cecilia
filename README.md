@@ -42,9 +42,10 @@
 | ----- | ---- | ------ | ---------- |
 | ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) | **TailwindCSS** | https://tailwindcss.com/docs/installation/using-vite | |
 | ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white) | **React Router** | https://www.npmjs.com/package/react-router-dom <br/> https://www.npmjs.com/package/react-router| `npm i react-router-dom` <br/> `npm i react-router`| 
-| | **React Redux Toolkit** | | `npm i @reduxjs/toolkit`<br/>`npm i react-redux`<br/> `npm i redux-persist` | 
-| | **React Icons** | | `npm install react-icons --save` |
-| | **Framer Motion** | | `npm install framer-motion`| 
+| ![Redux Toolkit](https://img.shields.io/badge/Redux--Toolkit-764ABC?style=flat&logo=redux&logoColor=white)  | **React Redux Toolkit** | The official, opinionated, batteries-included toolset for efficient Redux development <br/> `https://redux-toolkit.js.org/` | `npm i @reduxjs/toolkit`<br/>`npm i react-redux`<br/> `npm i redux-persist` | 
+| ![React Icons](https://img.shields.io/badge/React_Icons-61DAFB?style=flat&logo=react&logoColor=white) | **React Icons** | `https://react-icons.github.io/react-icons/` | `npm install react-icons --save` |
+| ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white) | **Framer Motion** | Motion for React: `https://www.npmjs.com/package/framer-motion` <br/> Ejemplos: `https://framermotionexamples.com/` | `npm install framer-motion`| 
+| ![EmailJS](https://img.shields.io/badge/EmailJS-FF5A1F?style=flat&logo=emailjs&logoColor=white) | **Email JS** | `https://www.emailjs.com/` | `npm install emailjs-com` |
 
 ## 🛠️ Desarrollo y deploy web
 - Hecho con 💙​ por <a href="https://www.linkedin.com/in/cecilia-perdomo/" style="text-decoration: none; color: black">Cecilia Perdomo</a>, desde el 12 de noviembre de 2025.
