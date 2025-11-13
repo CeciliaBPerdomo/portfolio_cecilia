@@ -5,7 +5,7 @@ const CardProyecto = ({ titulo, descripcion, tecnologias, imagen, live, github }
   return (
     <div className="bg-[var(--color-background)] rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300 flex flex-col">
       {/* Imagen del proyecto */}
-       <div className="w-full h-56 flex items-center justify-center overflow-hidden">
+       <div className="w-full h-56 flex items-center justify-center overflow-hidden p-1 mt-2">
         <img
           src={imagen}
           alt={titulo}

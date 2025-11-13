@@ -44,6 +44,7 @@
 | ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white) | **React Router** | https://www.npmjs.com/package/react-router-dom <br/> https://www.npmjs.com/package/react-router| `npm i react-router-dom` <br/> `npm i react-router`| 
 | | **React Redux Toolkit** | | `npm i @reduxjs/toolkit`<br/>`npm i react-redux`<br/> `npm i redux-persist` | 
 | | **React Icons** | | `npm install react-icons --save` |
+| | **Framer Motion** | | `npm install framer-motion`| 
 
 ## 🛠️ Desarrollo y deploy web
 - Hecho con 💙​ por <a href="https://www.linkedin.com/in/cecilia-perdomo/" style="text-decoration: none; color: black">Cecilia Perdomo</a>, desde el 12 de noviembre de 2025.

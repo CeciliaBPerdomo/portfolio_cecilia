@@ -40,8 +40,7 @@
             "Next.js",
             "Tailwind CSS",
             "Redux",
-            "Firebase",
-            "GoogleAuth"
+            "Firebase"
         ],
         "imagen": "/proyectos/LogoBrinnaNegro.png",
         "live": "https://brinna.vercel.app/",
