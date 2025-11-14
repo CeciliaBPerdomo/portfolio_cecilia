@@ -1,0 +1,35 @@
+{
+  "tecnologia": [
+    {
+      "institucion": "Nucba",
+      "titulo": "React.js",
+      "periodo": "2025",
+      "habilidades": ["HTML", "CSS", "JavaScript", "React", "Vite", "Formik", "Axios"],
+      "certificado": "/certificados/reactjs.jpg"
+    },
+    {
+      "institucion": "Nucba",
+      "titulo": "JavaScript",
+      "periodo": "2025",
+      "habilidades": ["HTML", "CSS", "JavaScript"],
+      "certificado": "/certificados/js.jpg"
+    },
+    {
+      "institucion": "CoderHouse",
+      "titulo": "Python Django",
+      "periodo": "2025",
+      "habilidades": ["HTML", "CSS", "Bootstrp", "Pyhton", "Django"],
+      "certificado": "/certificados/django.jpg"
+    }
+  ],
+  "marketing": [
+    {
+      "institucion": "CoderHouse",
+      "titulo": "Publicidad en Redes Avanzado",
+      "periodo": "2025",
+      "habilidades": ["Meta Ads", "Google Ads"],
+      "certificado": "/certificados/publicidadredes.jpg"
+    }
+  ]
+}
+

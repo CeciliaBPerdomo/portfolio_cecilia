@@ -43,13 +43,23 @@ const Acerca = () => {
             Mi enfoque está en crear interfaces limpias, intuitivas y llenas de propósito.
           </p>
 
-          <motion.a
-            href="#contact"
-            whileHover={{ scale: 1.05 }}
-            className="inline-block mt-4 px-8 py-3 bg-[var(--botones)] text-[var(--espacio-blanco)] rounded-2xl hover:bg-[var(--color-acento)] transition-colors duration-300 self-center md:self-start shadow-md"
-          >
-            Hablemos de tu web ✉️
-          </motion.a>
+          <div className="flex flex-col md:flex-row gap-4">
+            <motion.a
+              href="#contact"
+              whileHover={{ scale: 1.05 }}
+              className="inline-block mt-4 px-8 py-3 bg-[var(--botones)] text-[var(--espacio-blanco)] rounded-2xl hover:bg-[var(--color-acento)] transition-colors duration-300 self-center md:self-start shadow-md"
+            >
+              Hablemos de tu web ✉️
+            </motion.a>
+
+            <motion.a
+              href="/estudios"
+              whileHover={{ scale: 1.05 }}
+              className="inline-block mt-4 px-8 py-3 bg-[var(--botones)] text-[var(--espacio-blanco)] rounded-2xl hover:bg-[var(--color-acento)] transition-colors duration-300 self-center md:self-start shadow-md"
+            >
+              Ver mis estudios 🎓
+            </motion.a>
+          </div>
         </div>
       </motion.div>
     </section>

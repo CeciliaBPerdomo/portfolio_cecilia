@@ -9,18 +9,18 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-[var(--espacio-blanco)] shadow-md px-6 md:px-12 py-3 flex items-center justify-between z-50 transition-colors duration-300">
-      
+
       {/* Lado izquierdo: logo o imagen */}
-      <div className="flex items-center gap-3">
-        <img 
-          src="/myAvatar.png" 
-          alt="Cecilia" 
-          className="w-12 h-12 rounded-full object-cover border border-[var(--color-encabezados)]"
+      <a href="/" className="flex items-center gap-3">
+        <img
+          src="/myAvatar.png"
+          alt="Cecilia"
+          className="w-12 h-12 rounded-full object-cover border border-[var(--color-encabezados)] cursor-pointer"
         />
         <span className="text-lg font-semibold text-[var(--color-encabezados)]">
           Bienvenid@
         </span>
-      </div>
+      </a>
 
       {/* Lado derecho: enlaces + ícono dark mode */}
       <div className="flex items-center gap-6">

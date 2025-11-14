@@ -32,7 +32,9 @@ const Contacto = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-6 bg-[var(--color-background)]">
+    <section 
+    id="contact"
+    className="min-h-screen flex flex-col items-center justify-center p-6 bg-[var(--color-background)]">
       {/* Título principal */}
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
@@ -122,7 +124,7 @@ const Contacto = () => {
           />
         </motion.div>
       </div>
-    </div>
+    </section>
   );
 };
 

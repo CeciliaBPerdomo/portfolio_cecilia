@@ -28,6 +28,8 @@ const Hero = () => {
         </h3>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+
+          <a href="#projects">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
@@ -35,6 +37,9 @@ const Hero = () => {
           >
             Ver mis proyectos
           </motion.button>
+          </a>
+
+          <a href="#contact">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
@@ -42,6 +47,7 @@ const Hero = () => {
           >
             Hablemos de tu web
           </motion.button>
+          </a>
         </div>
       </motion.div>
 
