@@ -4,7 +4,6 @@ import MiCV from '../../componentes/Estudios/MiCV'
 const Estudios = () => {
     return (
         <div>
-            Estudios
             <MiCV />
         </div>
     )

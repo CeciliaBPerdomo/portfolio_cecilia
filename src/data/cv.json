@@ -8,6 +8,13 @@
       "certificado": "/certificados/reactjs.jpg"
     },
     {
+      "institucion": "CoderHouse",
+      "titulo": "Angular",
+      "periodo": "2025",
+      "habilidades": ["HTML", "CSS", "TypeScript", "Angular", "Bootstrap"],
+      "certificado": "/certificados/angular.jpg"
+    },
+    {
       "institucion": "Nucba",
       "titulo": "JavaScript",
       "periodo": "2025",
@@ -18,7 +25,7 @@
       "institucion": "CoderHouse",
       "titulo": "Python Django",
       "periodo": "2025",
-      "habilidades": ["HTML", "CSS", "Bootstrp", "Pyhton", "Django"],
+      "habilidades": ["HTML", "CSS", "Bootstrap", "Pyhton", "Django"],
       "certificado": "/certificados/django.jpg"
     }
   ],
@@ -29,6 +36,13 @@
       "periodo": "2025",
       "habilidades": ["Meta Ads", "Google Ads"],
       "certificado": "/certificados/publicidadredes.jpg"
+    },
+    {
+      "institucion": "Skillshop de Google",
+      "titulo": "Publicidad en Display de Google Ads",
+      "periodo": "2025",
+      "habilidades": ["Meta Ads", "Google Ads"],
+      "certificado": "/certificados/display.jpg"
     }
   ]
 }

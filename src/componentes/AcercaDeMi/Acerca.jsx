@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion"; // npm install framer-motion
+import { Link } from "react-router";
 
 const Acerca = () => {
   return (
@@ -52,13 +53,14 @@ const Acerca = () => {
               Hablemos de tu web ✉️
             </motion.a>
 
-            <motion.a
-              href="/estudios"
-              whileHover={{ scale: 1.05 }}
-              className="inline-block mt-4 px-8 py-3 bg-[var(--botones)] text-[var(--espacio-blanco)] rounded-2xl hover:bg-[var(--color-acento)] transition-colors duration-300 self-center md:self-start shadow-md"
-            >
-              Ver mis estudios 🎓
-            </motion.a>
+            <Link to="/estudios">
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                className="inline-block mt-4 px-8 py-3 bg-[var(--botones)] text-[var(--espacio-blanco)] rounded-2xl hover:bg-[var(--color-acento)] transition-colors duration-300 self-center md:self-start shadow-md"
+              >
+                Ver mis estudios 🎓
+              </motion.div>
+            </Link>
           </div>
         </div>
       </motion.div>

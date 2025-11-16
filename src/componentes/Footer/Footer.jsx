@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
@@ -25,6 +26,7 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-2">Navegación</h3>
           <a href="#about" className="hover:text-[var(--color-acento)] transition">Acerca de mí</a>
           <a href="#projects" className="hover:text-[var(--color-acento)] transition">Mis proyectos</a>
+          <Link to="/estudios" clLinkssName="hover:text-[var(--color-acento)] transition">Mis estudios</Link>
           <a href="#contact" className="hover:text-[var(--color-acento)] transition">Contacto</a>
         </div>
 
