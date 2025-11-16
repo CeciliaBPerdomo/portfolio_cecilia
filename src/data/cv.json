@@ -1,10 +1,17 @@
 {
   "tecnologia": [
     {
+      "institucion": "4Geeks Academy",
+      "titulo": "Full Stack Software Development FT",
+      "periodo": "2022",
+      "habilidades": ["HTML", "CSS", "JavaScript", "React", "Python", "Formik", "Axios", "Flux", "FlaskSQLAchemy"],
+      "certificado": "/certificados/full.jpg"
+    },
+    {
       "institucion": "Nucba",
       "titulo": "React.js",
       "periodo": "2025",
-      "habilidades": ["HTML", "CSS", "JavaScript", "React", "Vite", "Formik", "Axios"],
+      "habilidades": ["HTML", "CSS", "JavaScript", "React", "Vite", "Formik", "Axios", "Redux Toolkit"],
       "certificado": "/certificados/reactjs.jpg"
     },
     {
@@ -13,6 +20,13 @@
       "periodo": "2025",
       "habilidades": ["HTML", "CSS", "TypeScript", "Angular", "Bootstrap"],
       "certificado": "/certificados/angular.jpg"
+    },
+    {
+      "institucion": "CoderHouse",
+      "titulo": "WordPress",
+      "periodo": "2025",
+      "habilidades": ["WordPress", "CSS", "Elementor", "Widgets"],
+      "certificado": "/certificados/wordpress.jpg"
     },
     {
       "institucion": "Nucba",
@@ -27,6 +41,34 @@
       "periodo": "2025",
       "habilidades": ["HTML", "CSS", "Bootstrap", "Pyhton", "Django"],
       "certificado": "/certificados/django.jpg"
+    },
+    {
+      "institucion": "Nucba",
+      "titulo": "Diseño web",
+      "periodo": "2024",
+      "habilidades": ["HTML", "CSS"],
+      "certificado": "/certificados/js.jpg"
+    },
+    {
+      "institucion": "CoderHouse",
+      "titulo": "Cloud Computing",
+      "periodo": "2024",
+      "habilidades": ["AWS"],
+      "certificado": "/certificados/aws.jpg"
+    },
+    {
+      "institucion": "CoderHouse",
+      "titulo": "Desarrollo de aplicaciones",
+      "periodo": "2024",
+      "habilidades": ["HTML", "CSS", "React Native", "Redux", "Firebase", "Google Auth"],
+      "certificado": "/certificados/native.jpg"
+    },
+    {
+      "institucion": "CoderHouse",
+      "titulo": "Next.js",
+      "periodo": "2024",
+      "habilidades": ["HTML", "CSS", "Next.js", "Firebase", "Google Auth", "Redux"],
+      "certificado": "/certificados/next.jpg"
     }
   ],
   "marketing": [
@@ -43,6 +85,43 @@
       "periodo": "2025",
       "habilidades": ["Meta Ads", "Google Ads"],
       "certificado": "/certificados/display.jpg"
+    },
+    {
+      "institucion": "Skillshop de Google",
+      "titulo": "Publicidad en Búsqueda de Google Ads",
+      "periodo": "2025",
+      "habilidades": ["Meta Ads", "Google Ads"],
+      "certificado": "/certificados/busqueda.jpg"
+    },
+    {
+      "institucion": "CoderHouse",
+      "titulo": "Marketing Digital",
+      "periodo": "2025",
+      "habilidades": ["Meta Ads", "Google Ads"],
+      "certificado": "/certificados/marketing.jpg"
+    },
+    {
+      "institucion": "Santander Open Academy",
+      "titulo": "StoryTelling en el marketing digital",
+      "periodo": "2024",
+      "habilidades": ["StoryTelling"],
+      "certificado": "/certificados/story.jpg"
+    }
+  ],
+  "metodologias": [
+    {
+      "institucion": "Bios Online",
+      "titulo": "Scrum, Jira y Metodologías ágiles",
+      "periodo": "2023",
+      "habilidades": ["Scrum", "Trabajo en equipo", "Metodologías ágiles", "Jira"],
+      "certificado": "/certificados/jira.png"
+    },
+    {
+      "institucion": "Scrum Foundation",
+      "titulo": "Scrum Fundamentals",
+      "periodo": "2023",
+      "habilidades": ["Scrum", "Trabajo en equipo", "Metodologías ágiles"],
+      "certificado": "/certificados/scrum.jpg"
     }
   ]
 }
