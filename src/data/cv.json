@@ -1,6 +1,13 @@
 {
   "tecnologia": [
     {
+      "institucion": "Universidad ORT",
+      "titulo": "Analista Programador",
+      "periodo": "2007",
+      "habilidades": ["Visual Basic Studio", "Programación POO", "Web", "SQL", "Base de datos"],
+      "certificado": "/certificados/analista.png"
+    },
+    {
       "institucion": "4Geeks Academy",
       "titulo": "Full Stack Software Development FT",
       "periodo": "2022",
@@ -53,7 +60,7 @@
       "institucion": "CoderHouse",
       "titulo": "Cloud Computing",
       "periodo": "2024",
-      "habilidades": ["AWS"],
+      "habilidades": ["AWS", "Cloud Computing"],
       "certificado": "/certificados/aws.jpg"
     },
     {
@@ -67,8 +74,29 @@
       "institucion": "CoderHouse",
       "titulo": "Next.js",
       "periodo": "2024",
-      "habilidades": ["HTML", "CSS", "Next.js", "Firebase", "Google Auth", "Redux"],
+      "habilidades": ["HTML", "CSS", "TailwindCSS", "Next.js", "Firebase", "Google Auth", "Redux"],
       "certificado": "/certificados/next.jpg"
+    },
+    {
+      "institucion": "Plataforma 5",
+      "titulo": "Curso introductorio de Programación",
+      "periodo": "2022",
+      "habilidades": ["HTML", "CSS", "JavaScript"],
+      "certificado": "/certificados/introjs.jpg"
+    },
+    {
+      "institucion": "CoderHouse",
+      "titulo": "Programación Backend",
+      "periodo": "2022",
+      "habilidades": ["HTML", "CSS", "JavaScript", "Node.js", "Docker"],
+      "certificado": "/certificados/backend.jpg"
+    },
+    {
+      "institucion": "Taller de informática",
+      "titulo": "Programación JavaScript",
+      "periodo": "2021",
+      "habilidades": ["HTML", "CSS", "JavaScript"],
+      "certificado": "/certificados/jstaller.jpg"
     }
   ],
   "marketing": [
@@ -110,6 +138,13 @@
   ],
   "metodologias": [
     {
+      "institucion": "Santander Open Academy",
+      "titulo": "Liderazgo",
+      "periodo": "2024",
+      "habilidades": ["Liderazgo", "Trabajo en equipo"],
+      "certificado": "/certificados/liderazgosant.jpg"
+    },
+    {
       "institucion": "Bios Online",
       "titulo": "Scrum, Jira y Metodologías ágiles",
       "periodo": "2023",
@@ -122,6 +157,29 @@
       "periodo": "2023",
       "habilidades": ["Scrum", "Trabajo en equipo", "Metodologías ágiles"],
       "certificado": "/certificados/scrum.jpg"
+    },
+    {
+      "institucion": "Bios Online",
+      "titulo": "Liderazgo para principiantes",
+      "periodo": "2023",
+      "habilidades": ["Liderazgo", "Trabajo en equipo"],
+      "certificado": "/certificados/liderazgo.png"
+    }
+  ],
+  "ux": [
+    {
+      "institucion": "Open Bootcamp",
+      "titulo": "UX/UI",
+      "periodo": "2023",
+      "habilidades": ["UX", "UI", "Figma"],
+      "certificado": "/certificados/uxui.jpg"
+    },
+    {
+      "institucion": "Domestika",
+      "titulo": "Diseño de interfaces web y aplicaciones",
+      "periodo": "2021",
+      "habilidades": ["UX", "UI", "Figma"],
+      "certificado": "/certificados/interfaces.png"
     }
   ]
 }

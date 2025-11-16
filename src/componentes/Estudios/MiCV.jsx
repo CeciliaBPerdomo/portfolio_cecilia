@@ -20,65 +20,63 @@ const MiCV = () => {
                         }}
                         transition={{ type: "spring", stiffness: 200, damping: 15 }}
                     >
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
 
-                            {/* Imagen a la izquierda */}
-                            {item.certificado && (
+                        {/* Imagen arriba */}
+                        {item.certificado && (
+                            <div className="w-full h-72 rounded-lg overflow-hidden flex items-center justify-center">
                                 <img
                                     src={item.certificado}
                                     alt={`Certificado de ${item.titulo}`}
-                                    className="rounded-lg shadow-md w-full h-64 object-cover"
+                                    className="w-full h-full object-contain"
                                 />
-                            )}
-
-                            {/* Texto a la derecha */}
-                            <div className="flex flex-col justify-center">
-                                <h3 className="text-xl font-semibold">
-                                    {item.titulo}
-                                </h3>
-
-                                <p className="text-base text-[var(--color-destacado-marronsuave)] mb-3">
-                                    {item.institucion}, {item.periodo}
-                                </p>
-
-                                <motion.div
-                                    className="flex flex-wrap gap-2"
-                                    initial="hidden"
-                                    whileInView="visible"
-                                    viewport={{ once: true }}
-                                    variants={{
-                                        hidden: { opacity: 0, y: 10 },
-                                        visible: {
-                                            opacity: 1,
-                                            y: 0,
-                                            transition: {
-                                                duration: 0.5,
-                                                ease: "easeOut",
-                                                staggerChildren: 0.08
-                                            }
-                                        }
-                                    }}
-                                >
-                                    {item.habilidades.map((skill, i) => (
-                                        <motion.span
-                                            key={i}
-                                            className="px-3 py-1 bg-[var(--botones)] text-[var(--espacio-blanco)] rounded-full text-sm"
-                                            variants={{
-                                                hidden: { opacity: 0, y: 8 },
-                                                visible: { opacity: 1, y: 0 }
-                                            }}
-                                            whileHover={{ scale: 1.03 }}
-                                            transition={{ type: "spring", stiffness: 200, damping: 12 }}
-                                        >
-                                            {skill}
-                                        </motion.span>
-                                    ))}
-                                </motion.div>
                             </div>
+                        )}
 
-                        </div>
+                        {/* Texto abajo */}
+                        <h3 className="text-xl font-semibold mb-1 mt-2">
+                            {item.titulo}
+                        </h3>
+
+                        <p className="text-base text-[var(--color-destacado-marronsuave)] mb-3">
+                            {item.institucion}, {item.periodo}
+                        </p>
+
+                        <motion.div
+                            className="flex flex-wrap gap-2"
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true }}
+                            variants={{
+                                hidden: { opacity: 0, y: 10 },
+                                visible: {
+                                    opacity: 1,
+                                    y: 0,
+                                    transition: {
+                                        duration: 0.5,
+                                        ease: "easeOut",
+                                        staggerChildren: 0.08
+                                    }
+                                }
+                            }}
+                        >
+                            {item.habilidades.map((skill, i) => (
+                                <motion.span
+                                    key={i}
+                                    className="px-3 py-1 bg-[var(--botones)] text-[var(--espacio-blanco)] rounded-full text-sm"
+                                    variants={{
+                                        hidden: { opacity: 0, y: 8 },
+                                        visible: { opacity: 1, y: 0 }
+                                    }}
+                                    whileHover={{ scale: 1.03 }}
+                                    transition={{ type: "spring", stiffness: 200, damping: 12 }}
+                                >
+                                    {skill}
+                                </motion.span>
+                            ))}
+                        </motion.div>
 
                     </motion.li>
+
 
                 ))}
             </ul>
@@ -94,6 +92,9 @@ const MiCV = () => {
 
             <h2 className="text-2xl font-semibold mt-4 mb-2">Metodologías</h2>
             {renderItems(data.metodologias)}
+
+             <h2 className="text-2xl font-semibold mt-4 mb-2">UX / UI</h2>
+            {renderItems(data.ux)}
 
             <h2 className="text-2xl font-semibold mt-8 mb-2">Marketing</h2>
             {renderItems(data.marketing)}
