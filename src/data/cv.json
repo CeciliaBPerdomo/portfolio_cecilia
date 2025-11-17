@@ -54,7 +54,7 @@
       "titulo": "Diseño web",
       "periodo": "2024",
       "habilidades": ["HTML", "CSS"],
-      "certificado": "/certificados/js.jpg"
+      "certificado": "/certificados/web.jpg"
     },
     {
       "institucion": "CoderHouse",
@@ -104,14 +104,14 @@
       "institucion": "CoderHouse",
       "titulo": "Growth Marketing",
       "periodo": "2025",
-      "habilidades": ["Meta Ads", "Google Ads"],
+      "habilidades": ["Meta Ads", "Google Ads", "Marketing digital", "StoryTelling"],
       "certificado": "/certificados/GrowthMarketing.png"
     },
     {
       "institucion": "CoderHouse",
       "titulo": "Publicidad en Redes Avanzado",
       "periodo": "2025",
-      "habilidades": ["Meta Ads", "Google Ads"],
+      "habilidades": ["Meta Ads", "Google Ads", "Marketing digital"],
       "certificado": "/certificados/publicidadredes.jpg"
     },
     {
@@ -132,7 +132,7 @@
       "institucion": "CoderHouse",
       "titulo": "Marketing Digital",
       "periodo": "2025",
-      "habilidades": ["Meta Ads", "Google Ads"],
+      "habilidades": ["Meta Ads", "Google Ads", "Marketing digital", "Community manager"],
       "certificado": "/certificados/marketing.jpg"
     },
     {
