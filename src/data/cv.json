@@ -102,6 +102,13 @@
   "marketing": [
     {
       "institucion": "CoderHouse",
+      "titulo": "Growth Marketing",
+      "periodo": "2025",
+      "habilidades": ["Meta Ads", "Google Ads"],
+      "certificado": "/certificados/GrowthMarketing.png"
+    },
+    {
+      "institucion": "CoderHouse",
       "titulo": "Publicidad en Redes Avanzado",
       "periodo": "2025",
       "habilidades": ["Meta Ads", "Google Ads"],
