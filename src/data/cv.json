@@ -4,99 +4,253 @@
       "institucion": "Universidad ORT",
       "titulo": "Analista Programador",
       "periodo": "2007",
-      "habilidades": ["Visual Basic Studio", "Programación POO", "Web", "SQL", "Base de datos"],
-      "certificado": "/certificados/analista.png"
+      "habilidades": [
+        "Visual Basic Studio",
+        "Programación POO",
+        "Web",
+        "SQL",
+        "Base de datos"
+      ],
+      "certificado": "/certificados/analista.png",
+      "proyecto": "Gestión de registros médicos",
+      "github": "",
+      "liveVersion": ""
     },
     {
       "institucion": "4Geeks Academy",
       "titulo": "Full Stack Software Development FT",
       "periodo": "2022",
-      "habilidades": ["HTML", "CSS", "JavaScript", "React", "Python", "Formik", "Axios", "Flux", "FlaskSQLAchemy"],
-      "certificado": "/certificados/full.jpg"
+      "habilidades": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "React",
+        "Python",
+        "Formik",
+        "Axios",
+        "Flux",
+        "Flask",
+        "JWT",
+        "GitHub",
+        "Trello",
+        "Postman",
+        "Mercado Pago"
+      ],
+      "certificado": "/certificados/full.jpg",
+      "proyecto": "Activa Fitness Club",
+      "github": "https://github.com/CeciliaBPerdomo/ActivaFitnessClub",
+      "liveVersion": ""
     },
     {
       "institucion": "Nucba",
       "titulo": "React.js",
       "periodo": "2025",
-      "habilidades": ["HTML", "CSS", "JavaScript", "React", "Vite", "Formik", "Axios", "Redux Toolkit"],
-      "certificado": "/certificados/reactjs.jpg"
+      "habilidades": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Vite",
+        "Formik",
+        "Axios",
+        "Rect Icons",
+        "Redux Toolkit",
+        "GitHub"
+      ],
+      "certificado": "/certificados/reactjs.jpg",
+      "proyecto": "CupkaceLandia",
+      "github": "https://github.com/CeciliaBPerdomo/Proyecto-Integrador-React-Cupcakes",
+      "liveVersion": "https://proyecto-integrador-react-cupcakes.vercel.app/"
     },
     {
       "institucion": "CoderHouse",
       "titulo": "Angular",
       "periodo": "2025",
-      "habilidades": ["HTML", "CSS", "TypeScript", "Angular", "Bootstrap"],
-      "certificado": "/certificados/angular.jpg"
+      "habilidades": [
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "Angular",
+        "Bootstrap",
+        "Material UI",
+        "NgRx",
+        "Jasmine",
+        "Karma",
+        "GitHub"
+      ],
+      "certificado": "/certificados/angular.jpg",
+      "proyecto": "Gestión de Cursos",
+      "github": "https://github.com/CeciliaBPerdomo/ProyectoFinal-GestionCursos",
+      "liveVersion": ""
     },
     {
       "institucion": "CoderHouse",
       "titulo": "WordPress",
       "periodo": "2025",
-      "habilidades": ["WordPress", "CSS", "Elementor", "Widgets"],
-      "certificado": "/certificados/wordpress.jpg"
+      "habilidades": [
+        "WordPress",
+        "CSS",
+        "Elementor",
+        "Widgets",
+        "Mercado Pago"
+      ],
+      "certificado": "/certificados/wordpress.jpg",
+      "proyecto": "Bienestar consciente",
+      "github": "",
+      "liveVersion": ""
     },
     {
       "institucion": "Nucba",
       "titulo": "JavaScript",
       "periodo": "2025",
-      "habilidades": ["HTML", "CSS", "JavaScript"],
-      "certificado": "/certificados/js.jpg"
+      "habilidades": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "GitHub"
+      ],
+      "certificado": "/certificados/js.jpg",
+      "proyecto": "ÑamBurgers",
+      "github": "https://github.com/CeciliaBPerdomo/PF2-NamBurgers",
+      "liveVersion": "https://pf-2-nam-burgers.vercel.app/"
     },
     {
       "institucion": "CoderHouse",
       "titulo": "Python Django",
       "periodo": "2025",
-      "habilidades": ["HTML", "CSS", "Bootstrap", "Pyhton", "Django"],
-      "certificado": "/certificados/django.jpg"
+      "habilidades": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Pyhton",
+        "Django",
+        "GitHub"
+      ],
+      "certificado": "/certificados/django.jpg",
+      "proyecto": "Blog de libros",
+      "github": "https://github.com/CeciliaBPerdomo/BlogLibros",
+      "liveVersion": ""
     },
     {
       "institucion": "Nucba",
       "titulo": "Diseño web",
       "periodo": "2024",
-      "habilidades": ["HTML", "CSS"],
-      "certificado": "/certificados/web.jpg"
+      "habilidades": [
+        "HTML",
+        "CSS",
+        "GitHub"
+      ],
+      "certificado": "/certificados/web.jpg",
+      "proyecto": "Pizza Conmigo",
+      "github": "https://github.com/CeciliaBPerdomo/PF1-PizzaConmigo",
+      "liveVersion": "https://pf-1-pizza-conmigo.vercel.app/"
     },
     {
       "institucion": "CoderHouse",
       "titulo": "Cloud Computing",
       "periodo": "2024",
-      "habilidades": ["AWS", "Cloud Computing"],
-      "certificado": "/certificados/aws.jpg"
+      "habilidades": [
+        "AWS",
+        "Cloud Computing"
+      ],
+      "certificado": "/certificados/aws.jpg",
+      "proyecto": "",
+      "github": "",
+      "liveVersion": ""
     },
     {
       "institucion": "CoderHouse",
       "titulo": "Desarrollo de aplicaciones",
       "periodo": "2024",
-      "habilidades": ["HTML", "CSS", "React Native", "Redux", "Firebase", "Google Auth"],
-      "certificado": "/certificados/native.jpg"
+      "habilidades": [
+        "HTML",
+        "CSS",
+        "TailwindCSS",
+        "React Native",
+        "Redux",
+        "Firebase",
+        "Google Auth",
+        "GitHub"
+      ],
+      "certificado": "/certificados/native.jpg",
+      "proyecto": "Librería: mis libritos",
+      "github": "https://github.com/CeciliaBPerdomo/18.ReactNative.ProyectoFinal",
+      "liveVersion": ""
     },
     {
       "institucion": "CoderHouse",
       "titulo": "Next.js",
       "periodo": "2024",
-      "habilidades": ["HTML", "CSS", "TailwindCSS", "Next.js", "Firebase", "Google Auth", "Redux"],
-      "certificado": "/certificados/next.jpg"
+      "habilidades": [
+        "HTML",
+        "CSS",
+        "TailwindCSS",
+        "JavaScript",
+        "Next.js",
+        "Firebase",
+        "Google Auth",
+        "Redux",
+        "GitHub"
+      ],
+      "certificado": "/certificados/next.jpg",
+      "proyecto": "Electrodomésticos Capellari",
+      "github": "https://github.com/CeciliaBPerdomo/MicroDesafios-Nextjs",
+      "liveVersion": ""
     },
     {
       "institucion": "Plataforma 5",
       "titulo": "Curso introductorio de Programación",
       "periodo": "2022",
-      "habilidades": ["HTML", "CSS", "JavaScript"],
-      "certificado": "/certificados/introjs.jpg"
+      "habilidades": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "GitHub"
+      ],
+      "certificado": "/certificados/introjs.jpg",
+      "proyecto": "",
+      "github": "",
+      "liveVersion": ""
     },
     {
       "institucion": "CoderHouse",
       "titulo": "Programación Backend",
       "periodo": "2022",
-      "habilidades": ["HTML", "CSS", "JavaScript", "Node.js", "Docker"],
-      "certificado": "/certificados/backend.jpg"
+      "habilidades": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "Node.js",
+        "Mongoose",
+        "MongoDB",
+        "Socket",
+        "Docker",
+        "GitHub",
+        "Postman"
+      ],
+      "certificado": "/certificados/backend.jpg",
+      "proyecto": "Peliculas",
+      "github": "https://github.com/CeciliaBPerdomo/Ecommerce-ProyectoFinal",
+      "liveVersion": ""
     },
     {
       "institucion": "Taller de informática",
       "titulo": "Programación JavaScript",
       "periodo": "2021",
-      "habilidades": ["HTML", "CSS", "JavaScript"],
-      "certificado": "/certificados/jstaller.jpg"
+      "habilidades": [
+        "HTML",
+        "CSS",
+        "Angular",
+        "Bootstrap",
+        "TypeScript",
+        "GitHub"
+      ],
+      "certificado": "/certificados/jstaller.jpg",
+      "proyecto": "Gestión de Farmacia",
+      "github": "https://github.com/CeciliaBPerdomo/FarmaciaCP",
+      "liveVersion": ""
     }
   ],
   "marketing": [
@@ -104,42 +258,73 @@
       "institucion": "CoderHouse",
       "titulo": "Growth Marketing",
       "periodo": "2025",
-      "habilidades": ["Meta Ads", "Google Ads", "Marketing digital", "StoryTelling"],
-      "certificado": "/certificados/GrowthMarketing.png"
+      "habilidades": [
+        "Meta Ads",
+        "Google Ads",
+        "Marketing digital",
+        "StoryTelling"
+      ],
+      "certificado": "/certificados/GrowthMarketing.png",
+      "proyecto": "",
+      "github": "",
+      "liveVersion": ""
     },
     {
       "institucion": "CoderHouse",
       "titulo": "Publicidad en Redes Avanzado",
       "periodo": "2025",
-      "habilidades": ["Meta Ads", "Google Ads", "Marketing digital"],
-      "certificado": "/certificados/publicidadredes.jpg"
+      "habilidades": [
+        "Meta Ads",
+        "Google Ads",
+        "Marketing digital"
+      ],
+      "certificado": "/certificados/publicidadredes.jpg",
+      "proyecto": "",
+      "github": "",
+      "liveVersion": ""
     },
     {
       "institucion": "Skillshop de Google",
       "titulo": "Publicidad en Display de Google Ads",
       "periodo": "2025",
-      "habilidades": ["Meta Ads", "Google Ads"],
+      "habilidades": [
+        "Meta Ads",
+        "Google Ads"
+      ],
       "certificado": "/certificados/display.jpg"
     },
     {
       "institucion": "Skillshop de Google",
       "titulo": "Publicidad en Búsqueda de Google Ads",
       "periodo": "2025",
-      "habilidades": ["Meta Ads", "Google Ads"],
+      "habilidades": [
+        "Meta Ads",
+        "Google Ads"
+      ],
       "certificado": "/certificados/busqueda.jpg"
     },
     {
       "institucion": "CoderHouse",
       "titulo": "Marketing Digital",
       "periodo": "2025",
-      "habilidades": ["Meta Ads", "Google Ads", "Marketing digital", "Community manager"],
-      "certificado": "/certificados/marketing.jpg"
+      "habilidades": [
+        "Meta Ads",
+        "Google Ads",
+        "Marketing digital",
+        "Community manager"
+      ],
+      "certificado": "/certificados/marketing.jpg",
+      "proyecto": "",
+      "github": "",
+      "liveVersion": ""
     },
     {
       "institucion": "Santander Open Academy",
       "titulo": "StoryTelling en el marketing digital",
       "periodo": "2024",
-      "habilidades": ["StoryTelling"],
+      "habilidades": [
+        "StoryTelling"
+      ],
       "certificado": "/certificados/story.jpg"
     }
   ],
@@ -148,28 +333,43 @@
       "institucion": "Santander Open Academy",
       "titulo": "Liderazgo",
       "periodo": "2024",
-      "habilidades": ["Liderazgo", "Trabajo en equipo"],
+      "habilidades": [
+        "Liderazgo",
+        "Trabajo en equipo"
+      ],
       "certificado": "/certificados/liderazgosant.jpg"
     },
     {
       "institucion": "Bios Online",
       "titulo": "Scrum, Jira y Metodologías ágiles",
       "periodo": "2023",
-      "habilidades": ["Scrum", "Trabajo en equipo", "Metodologías ágiles", "Jira"],
+      "habilidades": [
+        "Scrum",
+        "Trabajo en equipo",
+        "Metodologías ágiles",
+        "Jira"
+      ],
       "certificado": "/certificados/jira.png"
     },
     {
       "institucion": "Scrum Foundation",
       "titulo": "Scrum Fundamentals",
       "periodo": "2023",
-      "habilidades": ["Scrum", "Trabajo en equipo", "Metodologías ágiles"],
+      "habilidades": [
+        "Scrum",
+        "Trabajo en equipo",
+        "Metodologías ágiles"
+      ],
       "certificado": "/certificados/scrum.jpg"
     },
     {
       "institucion": "Bios Online",
       "titulo": "Liderazgo para principiantes",
       "periodo": "2023",
-      "habilidades": ["Liderazgo", "Trabajo en equipo"],
+      "habilidades": [
+        "Liderazgo",
+        "Trabajo en equipo"
+      ],
       "certificado": "/certificados/liderazgo.png"
     }
   ],
@@ -178,16 +378,23 @@
       "institucion": "Open Bootcamp",
       "titulo": "UX/UI",
       "periodo": "2023",
-      "habilidades": ["UX", "UI", "Figma"],
+      "habilidades": [
+        "UX",
+        "UI",
+        "Figma"
+      ],
       "certificado": "/certificados/uxui.jpg"
     },
     {
       "institucion": "Domestika",
       "titulo": "Diseño de interfaces web y aplicaciones",
       "periodo": "2021",
-      "habilidades": ["UX", "UI", "Figma"],
+      "habilidades": [
+        "UX",
+        "UI",
+        "Figma"
+      ],
       "certificado": "/certificados/interfaces.png"
     }
   ]
 }
-

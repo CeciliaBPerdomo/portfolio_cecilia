@@ -6,7 +6,7 @@ const Acerca = () => {
   return (
     <section
       id="about"
-      className="w-full flex justify-center items-center py-20 bg-[var(--color-background)]"
+      className="w-full flex justify-center items-center py-20 bg-[var(--color-secondary-background)]"
     >
       {/* Contenedor principal */}
       <motion.div

@@ -1,7 +1,7 @@
 import React from 'react'
 import data from "../../data/cv.json"
 import { motion } from "framer-motion";
-
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const MiCV = () => {
 
@@ -12,7 +12,8 @@ const MiCV = () => {
                 {items.map((item, idx) => (
                     <motion.li
                         key={idx}
-                        className="w-full md:w-[90%] bg-[var(--bloques)] p-6 rounded-xl shadow-md border border-[var(--espacio-blanco)] text-[var(--color-encabezados)]"
+                        className="w-full md:w-[90%] bg-[var(--bloques)] p-6 rounded-xl shadow-md border border-[var(--espacio-blanco)] text-[var(--color-encabezados)] flex flex-col"
+
                         whileHover={{
                             scale: 1.02,
                             y: -4,
@@ -21,23 +22,25 @@ const MiCV = () => {
                         transition={{ type: "spring", stiffness: 200, damping: 15 }}
                     >
 
+                        <hr className='mb-3 border-t border-[var(--espacio-blanco)]' />
+
                         {/* Imagen arriba */}
                         {item.certificado && (
-                            <div className="w-full h-72 rounded-lg overflow-hidden flex items-center justify-center">
+                            <div className="w-full h-72 overflow-hidden flex items-center justify-center">
                                 <img
                                     src={item.certificado}
                                     alt={`Certificado de ${item.titulo}`}
-                                    className="w-full h-full object-contain"
+                                    className="w-full h-full object-contain rounded-2xl"
                                 />
                             </div>
                         )}
 
-                        {/* Texto abajo */}
+                        {/* Texto */}
                         <h3 className="text-xl font-semibold mb-1 mt-2">
                             {item.titulo}
                         </h3>
 
-                        <p className="text-base text-[var(--color-destacado-marronsuave)] mb-3">
+                        <p className="text-base text-[var(--color-destacado-marronsuave)] mb-3 font-bold">
                             {item.institucion}, {item.periodo}
                         </p>
 
@@ -75,9 +78,53 @@ const MiCV = () => {
                             ))}
                         </motion.div>
 
+                        <hr className='mt-3 border-t border-[var(--espacio-blanco)]' />
+
+                        {/* Proyecto */}
+                        {item.proyecto && (
+                            <div className="mt-auto pt-4">
+                                <p className="text-base text-[var(--color-destacado-marronsuave)] mb-3">
+                                    Proyecto: <span className='text-[var(--color-acento)] font-bold'>{item.proyecto}</span>
+                                </p>
+
+                                {/* Botones */}
+                                <motion.div
+                                    className="flex gap-4 mt-3"
+                                    initial={{ opacity: 0, y: 10 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.35, ease: "easeOut" }}
+                                >
+                                    {item.liveVersion && item.liveVersion.trim() !== "" && (
+                                        <a
+                                            href={item.liveVersion}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex items-center justify-center gap-2 px-4 py-2 rounded-xl bg-[var(--botones)] text-[var(--espacio-blanco)] hover:bg-[var(--color-acento)] transition w-1/2"
+                                        >
+                                            Versión en vivo <FaExternalLinkAlt size={16} />
+                                        </a>
+                                    )}
+
+                                    {item.github && item.github.trim() !== "" && (
+                                        <a
+                                            href={item.github}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex items-center justify-center gap-2 px-4 py-2 rounded-xl border-2 border-[var(--botones)] text-[var(--botones)] hover:bg-[var(--color-acento)] hover:text-[var(--espacio-blanco)] transition w-1/2"
+                                        >
+                                            Ver código <FaGithub size={18} />
+                                        </a>
+                                    )}
+                                </motion.div>
+                            </div>
+                        )}
+
+                        {/* HR final solo si NO hay proyecto */}
+                        {item.proyecto && (
+                            <hr className="mt-3 border-t border-[var(--espacio-blanco)]" />
+                        )}
+
                     </motion.li>
-
-
                 ))}
             </ul>
         </div>
@@ -93,7 +140,7 @@ const MiCV = () => {
             <h2 className="text-2xl font-semibold mt-4 mb-2">Metodologías</h2>
             {renderItems(data.metodologias)}
 
-             <h2 className="text-2xl font-semibold mt-4 mb-2">UX / UI</h2>
+            <h2 className="text-2xl font-semibold mt-4 mb-2">UX / UI</h2>
             {renderItems(data.ux)}
 
             <h2 className="text-2xl font-semibold mt-8 mb-2">Marketing</h2>
